@@ -1,3 +1,5 @@
+<body>
+    <pyscript> 
 from tkinter import *
 import random
 
@@ -101,9 +103,13 @@ window.bind('<Left>', lambda event: change_direction('left'))
 window.bind('<Right>', lambda event: change_direction('right'))
 window.bind('<Up>', lambda event: change_direction('up'))
 window.bind('<Down>', lambda event: change_direction('down'))
+</pyscript>
 
 snake = Snake()
 food = Food()
 next_turn(snake, food)
 
 window.mainloop()
+    </pysript>
+</body>
+
